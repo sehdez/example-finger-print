@@ -8,6 +8,7 @@
 
 
 namespace fingerprint;
+header('Access-Controll-Allow-Origin: *');
 
 require("../core/querydb.php");
 require_once("../core/helpers/helpers.php");
